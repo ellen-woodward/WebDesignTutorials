@@ -1,0 +1,28 @@
+/* css styling for h1 elements*/
+h1{
+    margin: 0;
+    padding: 4px;
+    color: rgb(167, 71, 71);
+}
+
+/* css styling for body elements*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 550px;
+    margin: 0;
+    padding: 16px;
+    border: 5px solid navy;
+}
+
+/* css styling for paragraph element*/
+p{
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+
+/* css styling for img element*/
+img{
+    float: left;
+    margin: 16px;
+}

@@ -4,63 +4,74 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="description" content="Information website">
-        <meta name="keywords" content="Garden, Creatures, Bees, Frogs, Ladybird">
+        <meta name="description" content="Company website">
+        <meta name="keywords" content="Products, Future, Unique">
         <meta name="author" content="Ellen Woodward">
 
-        <title>Garden Creatures</title>
-        <link rel="stylesheet" type="text/css" href="styles/sample.css"/>
+        <title>The Company</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css"/>
     </head>
     <body>
 
         <header>
-            <h1>What's in the Garden?</h1>
+            <img style="float:left; margin-right:10px; padding-left: 10px;" src="images/logo.png" alt="logo" width="90"/>
+            <h1>Fictional Company Ltd.</h1>
             <nav>
-                <!--Navigation to other pages-->
-                <a class="anchorLarge" href="home.html">Home</a>|
-                <a class="anchorLarge" href="bees.html">Bees</a>|
-                <a class="anchorLarge" href="frogs.html">Frogs</a>|
-                <a class="anchorLarge" href="Ladybird.html">Ladybirds</a>
+                <ul>
+                    <li id="active"><a href="home.html">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="products.html">Products</a></li>
+                </ul>             
             </nav>
         </header>
 
         <main>
-
-            <p id="mainText">There is a lot of garden creatures to be aware of when one begins
-                 to garden. Some of the more common ones are bees, frogs and ladybirds. Each 
-                 creature plays a unique part in upholding the eco system of your garden. Each 
-                 creature plays a unique part in upholding the eco system of your garden. Each 
-                 creature plays a unique part in upholding the eco system of your garden. Each 
-                 creature plays a unique part in upholding the eco system of your garden. Each 
-                 creature plays a unique part in upholding the eco system of your garden. Each 
-                 creature plays a unique part in upholding the eco system of your garden. Each 
-                 creature plays a unique part in upholding the eco system of your garden. Each 
-                 creature plays a unique part in upholding the eco system of your garden. Each 
-                 creature plays a unique part in upholding the eco system of your garden.</p>
+            <article>
+                <h2>About our company</h2>
+                <p>Our company produces the unique products of the future. This is some text. 
+                    This is some text. This is some text. This is some text. This is some text. 
+                    This is some text. This is some text. This is some text. This is some text. 
+                    This is some text. This is some text. This is some text. This is some text.
+                </p>
+            </article>
 
             <section>
-                <h2>Bees</h2>
-                <img class="fullWidthContent" src="images/bee.jpg" alt="Bee">
-                <h3>Useful Links</h3>
-                <a href="bees.html">Find more about bees!</a>
+                <table>
+                    <caption><h2>Fictional Company Earnings</h2></caption>
+                    <tr>
+                        <th>2013 profits</th>
+                        <th>2014 profits</th>
+                        <th>2015 expected profits</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>10 million</td>
+                            <td>20 million</td>
+                            <td>100+ million</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
-            <section>
-                <h2>Frogs</h2>
-                <img class="fullWidthContent" src="images/frog.jpg" alt="Frog">
-                <h3>Useful Links</h3>
-                <a href="frogs.html">Find more about frogs!</a>
-            </section>
+            <h2>Product images</h2>
+            <img class="pictureWidth" src="images/mug.jpg" alt="mug"/>
+            <img class="pictureWidth" src="images/headgear.jpg" alt="headgear"/>
+            <img class="pictureWidth" src="images/hdvision.jpg" alt="hdvision"/>
 
-            <section>
-                <h2>Ladybirds</h2>
-                <img class="fullWidthContent" src="images/ladybird.jpg" alt="Ladybird">
-                <h3>Useful Links</h3>
-                <a href="ladybird.html">Find more about ladybirds!</a>
-            </section>
-
+            <h2>Our Leader: Robert Money</h2>
+            <img style="float: left;" width="30" height="250" src="images/male_face.jpg" alt="persons face"/>
+            <p>The dictionary version of leadership is “to lead a group of people or an organization.” 
+                But it’s not as simple as that. Leaders throughout every rung of the organization ladder 
+                are integral to the overall success of the business. Effective leadership is about executing 
+                the company’s vision (or redefining and improving it, in some cases) and setting the tone and 
+                the culture for that particular organization. Leadership means creating and planning, securing resources, 
+                and looking out for and improving errors. Leadership is about motivating people to work together and 
+                cooperate with themselves and in some cases, other teams, to achieve a certain goal.
+                <a href="https://www.wikipedia.org/">Click here for more</a>
+            </p> 
         </main>
         <footer>
+            <p>&copy;Copyright &#64;2022</p>
         </footer>
     </body>
     </html>

@@ -1,0 +1,86 @@
+<!Doctype HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Details</title>
+        <style>
+            .box-1{
+                width: 300px;
+                border: 3px solid pink;
+                font-weight: 700;
+                background-color: rgb(236, 196, 37);
+            }
+            .box-2{
+                width: 300px;
+                position: absolute;
+                right: 100px;
+                bottom: 100px;
+                border: 3px solid rgb(15, 15, 15);
+                color: red;
+                font-weight: 700;
+                background-color: rgb(201, 223, 248);
+            }
+            .box-3{
+                width: 300px;
+                border: 3px solid blue;
+                font-weight: 700;
+                background-color: cornsilk
+            }
+            .mainimage{
+                width: 50%;
+                height: 300px;
+                margin-left: 20%;
+                margin-right: 20%;
+                border: 2px white solid;
+                padding: 50px;
+            }
+            footer {
+                position: fixed;
+                bottom: 0;
+                font-weight: 300;
+                width: 100%;
+                border: 3px dotted brown;
+            }
+            footer p{
+                text-align: center;
+                color: cyan;
+                font-weight: 900;
+                background-color: aliceblue;
+            }
+            footer h1{
+                position: relative;
+                font-style: italic;
+                font-weight: 300
+            }    
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h1>Content position example</h1>
+        </header>
+
+        <main>
+            <section class="box-1"><h6>1st Box main default static position</h6></section>
+            <section class="box-2"><h6>2nd box absolute right</h6></section>
+            <section class="box-3"><h6>3rd box main section default static position</h6></section>
+            <section>
+                <img src="images/Saint_Peters.jpg" alt="logo" class="mainimage">
+                <h6>Info</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
+                    risus quam, feugiat id imperdiet eget, accumsan vitae nulla. Nunc quis 
+                    feugiat sem, maximus lobortis lacus. Integer feugiat, lorem at ultrices 
+                    venenatis, ex justo porttitor diam, nec scelerisque ex justo eu mauris. 
+                    Maecenas hendrerit gravida metus, sed suscipit nisl volutpat ac. 
+                    Pellentesque consequat metus vitae enim convallis vulputate. Nunc 
+                    massa sapien, ullamcorper et mi a, feugiat lobortis massa. Nunc sed 
+                    pretium mi. Sed elementum dolor velit, id porttitor risus feugiat eget. 
+                    In ut lorem enim. Curabitur tristique imperdiet erat. Mauris aliquam 
+                    tortor lorem, sit amet efficitur nisl pellentesque ac. Suspendisse 
+                    arcu metus, aliquam vel scelerisque sed, facilisis in nunc. Nullam 
+                    semper tempor semper. Duis venenatis tellus quis dignissim malesuada.</p>
+            </section>
+        </main>
+        <footer><p>Fixed Position &copy; Copyright bottom=0</p></footer>
+    </body>
+    </html>

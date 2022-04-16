@@ -1,77 +1,61 @@
 <!Doctype HTML>
 <!--Author - Ellen Woodward
-    Date - 17/2/22-->
+    Date - 3/3/22
+    CA1-->
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="description" content="Holiday club, holiday in the sun">
-        <meta name="keywords" content="Holiday club, holiday in the sun, A quiet beach to relax, Lorem ipsum">
+        <meta name="description" content="Tourism website">
+        <meta name="keywords" content="Colosseum, Rome, Amphitheatre">
+        <meta name="author" content="Ellen Woodward">
 
-        <title>Holiday Page</title>
+        <title>Colosseum</title>
         <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+        <style>
+            body{background: black;}
+        </style>
     </head>
     <body>
-        <a id="top"></a>
 
         <header>
-            <img id="sun_logo" src="images/sun_logo.png" alt="logo" width="960" height="668"/>
-            <h1>Holiday Club</h1>
-                <nav>
-                    <ul>
-                        <li class="selected">Home</li>
-                        <li><a href="sunholiday.html">Sun Holiday</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>             
-                </nav>
+            <img style="float:left; margin-right:10px; padding-left: 10px;" src="images/flag-logo.jpg" alt="flag" width="90"/>
+            <h1>Rome Travel</h1>
+            <!--Creating responsive menu-->
+            <nav>
+                <ul>
+                    <li id="active"><a href="index.html">Home</a></li>
+                    <li><a href="basilica.html">Basilica</a></li>
+                </ul>             
+            </nav>
         </header>
 
-        <a href="#bottom">Go to bottom</a>
-
         <main>
+            <img id="pictureWidth" style="float: left; padding: 0 20px;" src="images/colosseum_rome.jpg" alt="colosseum"/>
+            
             <section>
-                <h2>Holiday in the sun</h2>
-                <article>
-                    <h3>Holidays</h3>
-                <img class="treeImage" src="images/treeseaside.jpg" alt="Plam trees on beach"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum elit 
-                    a augue porta, eget mollis metus consectetur. Morbi egestas gravida tortor non 
-                    consectetur. Duis pulvinar sapien ac pellentesque aliquam. Interdum et malesuada 
-                    fames ac ante ipsum primis in faucibus. Quisque neque dui, auctor mollis porta sit 
-                    amet, sollicitudin eget libero. Aenean vulputate placerat fermentum. Interdum et 
-                    malesuada fames ac ante ipsum primis in faucibus. Proin sit amet congue neque. 
-                    Sed euismod ornare mauris, at hendrerit quam. In et nisi non sapien tempor bibendum 
-                    nec eget mauris. Fusce aliquam, urna vitae pharetra venenatis, ex nunc dictum felis, 
-                    eget porttitor nisi metus nec ligula. Aenean fringilla libero id libero iaculis 
-                    gravida. Praesent id ipsum quam. Proin eget faucibus nulla, quis fringilla dolor.</p>
-                </article>
-
-                <article>
-                    <h3>A quiet beach to relax</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum elit 
-                    a augue porta, eget mollis metus consectetur. Morbi egestas gravida tortor non 
-                    consectetur. Duis pulvinar sapien ac pellentesque aliquam. Interdum et malesuada 
-                    fames ac ante ipsum primis in faucibus. Quisque neque dui, auctor mollis porta sit 
-                    amet, sollicitudin eget libero. Aenean vulputate placerat fermentum. Interdum et 
-                    malesuada fames ac ante ipsum primis in faucibus. Proin sit amet congue neque. 
-                    Sed euismod ornare mauris, at hendrerit quam. In et nisi non sapien tempor bibendum 
-                    nec eget mauris. Fusce aliquam, urna vitae pharetra venenatis, ex nunc dictum felis, 
-                    eget porttitor nisi metus nec ligula. Aenean fringilla libero id libero iaculis 
-                    gravida. Praesent id ipsum quam. Proin eget faucibus nulla, quis fringilla dolor.
-                    </p>
-                </article>
-            </section>
+                <h2>Colosseum Rome</h2>
+                <p>The Colosseum is an oval amphitheatre in the centre of the city of Rome
+                Italy, just east of the Roman Forum. It is the largest ancient amphitheatre 
+                ever built, and is still the largest standing amphitheatre in the world 
+                today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD)
+                 in 72 and was completed in 80 AD under his successor and heir, Titus (r. 79–81).
+                  Further modifications were made during the reign of Domitian (r. 81–96).
+                   The three emperors that were patrons of the work are known as the Flavian dynasty,
+                    and the amphitheatre was named the Flavian Amphitheatre (Latin: by later classicists 
+                    and archaeologists for its association with their family name (Flavius). The Colosseum 
+                    is built of travertine limestone, tuff (volcanic rock), and brick-faced concrete. The Colosseum 
+                    could hold an estimated 50,000 to 80,000 spectators at various points in its history having an 
+                    average audience of some 65,000; it was used for gladiatorial contests and public spectacles 
+                    including animal hunts, executions, re-enactments of famous battles, and dramas based on Roman 
+                    mythology, and briefly mock sea battles. The building ceased to be used for entertainment in the 
+                    early medieval era. It was later reused for such purposes as housing, workshops, quarters for a 
+                    religious order, a fortress, a quarry, and a Christian shrine.
+                    <a href="https://en.wikipedia.org/wiki/Colosseum">Read more...</a></p>
+                </section>
         </main>
-        <a href="#top">Go to top</a>
-        <a id="bottom"></a>
-
+        <!--Creating a fixed footer with copyright logo-->
         <footer>
-            <ul>
-                <li><a href="index.html" style="color: #f3b104;">Home</a></li>
-                <li><a href="sunholiday.html">Sun Holidays</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <p>&copy; 2022 Holiday Club</p>
+            <p>&copy;2022 Rome Travel</p>
         </footer>
     </body>
     </html>

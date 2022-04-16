@@ -1,61 +1,116 @@
 <!Doctype HTML>
 <!--Author - Ellen Woodward
-    Date - 3/3/22
-    CA1-->
+    Date - 17/2/22-->
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="description" content="Tourism website">
-        <meta name="keywords" content="Colosseum, Rome, Amphitheatre">
+        <meta name="description" content="Fresh Groceries and Meats at Sligo Foodmarket">
+        <meta name="keywords" content="Food, Sligo, Fresh, Meat, Groceries">
         <meta name="author" content="Ellen Woodward">
 
-        <title>Colosseum</title>
+        <title>Foodmarket Sligo</title>
         <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
-        <style>
-            body{background: black;}
-        </style>
+        <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16"/>
     </head>
     <body>
 
         <header>
-            <img style="float:left; margin-right:10px; padding-left: 10px;" src="images/flag-logo.jpg" alt="flag" width="90"/>
-            <h1>Rome Travel</h1>
-            <!--Creating responsive menu-->
-            <nav>
-                <ul>
-                    <li id="active"><a href="index.html">Home</a></li>
-                    <li><a href="basilica.html">Basilica</a></li>
-                </ul>             
-            </nav>
+            <img class="logo" src="images/logo.png" alt="logo"/>
+            <h1>Foodmarket Sligo</h1>
         </header>
+        <nav>
+            <ul>
+                <li id="active"><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="audio.html">Audio</a></li>
+            </ul>             
+        </nav>
 
-        <main>
-            <img id="pictureWidth" style="float: left; padding: 0 20px;" src="images/colosseum_rome.jpg" alt="colosseum"/>
-            
+        <main id="mainContent">
             <section>
-                <h2>Colosseum Rome</h2>
-                <p>The Colosseum is an oval amphitheatre in the centre of the city of Rome
-                Italy, just east of the Roman Forum. It is the largest ancient amphitheatre 
-                ever built, and is still the largest standing amphitheatre in the world 
-                today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD)
-                 in 72 and was completed in 80 AD under his successor and heir, Titus (r. 79–81).
-                  Further modifications were made during the reign of Domitian (r. 81–96).
-                   The three emperors that were patrons of the work are known as the Flavian dynasty,
-                    and the amphitheatre was named the Flavian Amphitheatre (Latin: by later classicists 
-                    and archaeologists for its association with their family name (Flavius). The Colosseum 
-                    is built of travertine limestone, tuff (volcanic rock), and brick-faced concrete. The Colosseum 
-                    could hold an estimated 50,000 to 80,000 spectators at various points in its history having an 
-                    average audience of some 65,000; it was used for gladiatorial contests and public spectacles 
-                    including animal hunts, executions, re-enactments of famous battles, and dramas based on Roman 
-                    mythology, and briefly mock sea battles. The building ceased to be used for entertainment in the 
-                    early medieval era. It was later reused for such purposes as housing, workshops, quarters for a 
-                    religious order, a fortress, a quarry, and a Christian shrine.
-                    <a href="https://en.wikipedia.org/wiki/Colosseum">Read more...</a></p>
+                <h2>About Us</h2>
+                <img src="images/front.JPG" id="bigPic" alt="front"/>
+                <p>Fine dining in Sligo, a very fancy plcae that serves the freshest food
+                    All year around.</p>
+            </section>
+            <section class="manager">
+                <h2>Manager</h2>
+                <img class="showImages" src="images/manager.jpg" alt="manager"/>
+                <h3>Manager Name</h3>
+                <p id="descText">Managers are very cool and run the business. 
+                    Our manager is the best manager in Sligo. We are not at all biased. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum elit 
+                    a augue porta, eget mollis metus consectetur. Morbi egestas gravida tortor non 
+                    consectetur. Duis pulvinar sapien ac pellentesque aliquam. Interdum et malesuada 
+                    fames ac ante ipsum primis in faucibus. Quisque neque dui, auctor mollis porta sit 
+                    amet, sollicitudin eget libero. Aenean vulputate placerat fermentum. Interdum et 
+                    malesuada fames ac ante ipsum primis in faucibus. Proin sit amet congue neque. 
+                    Sed euismod ornare mauris, at hendrerit quam. In et nisi non sapien tempor bibendum 
+                    nec eget mauris. Fusce aliquam, urna vitae pharetra venenatis, ex nunc dictum felis, 
+                    eget porttitor nisi metus nec ligula. Aenean fringilla libero id libero iaculis 
+                    gravida. Praesent id ipsum quam. Proin eget faucibus nulla, quis fringilla dolor.</p>
+            </section>
+            <section>
+                <h2>Kitchen Staff</h2>
+                <h3>Chef</h3>
+                <section class="col_detail">
+                    <img src="images/chef_female.jpg" alt="Chef"/>
+                    <h3>About our chef</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum elit 
+                        a augue porta, eget mollis metus consectetur. Morbi egestas gravida tortor non 
+                        consectetur. Duis pulvinar sapien ac pellentesque aliquam. Interdum et malesuada 
+                        fames ac ante ipsum primis in faucibus. Quisque neque dui, auctor mollis porta sit 
+                        amet, sollicitudin eget libero. Aenean vulputate placerat fermentum. Interdum et 
+                        malesuada fames ac ante ipsum primis in faucibus. Proin sit amet congue neque. 
+                        Sed euismod ornare mauris, at hendrerit quam. In et nisi non sapien tempor bibendum 
+                        nec eget mauris. Fusce aliquam, urna vitae pharetra venenatis, ex nunc dictum felis, 
+                        eget porttitor nisi metus nec ligula. Aenean fringilla libero id libero iaculis 
+                        gravida. Praesent id ipsum quam. Proin eget faucibus nulla, quis fringilla dolor.</p>
                 </section>
+                <h3>Chef 2</h3>
+                <section class="col_detail">
+                    <img src="images/chef_male.jpg" alt="Chef"/>
+                    <h3>About our chef</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum elit 
+                        a augue porta, eget mollis metus consectetur. Morbi egestas gravida tortor non 
+                        consectetur. Duis pulvinar sapien ac pellentesque aliquam. Interdum et malesuada 
+                        fames ac ante ipsum primis in faucibus. Quisque neque dui, auctor mollis porta sit 
+                        amet, sollicitudin eget libero. Aenean vulputate placerat fermentum. Interdum et 
+                        malesuada fames ac ante ipsum primis in faucibus. Proin sit amet congue neque. 
+                        Sed euismod ornare mauris, at hendrerit quam. In et nisi non sapien tempor bibendum 
+                        nec eget mauris. Fusce aliquam, urna vitae pharetra venenatis, ex nunc dictum felis, 
+                        eget porttitor nisi metus nec ligula. Aenean fringilla libero id libero iaculis 
+                        gravida. Praesent id ipsum quam. Proin eget faucibus nulla, quis fringilla dolor.</p>
+                </section>
+            </section>
         </main>
-        <!--Creating a fixed footer with copyright logo-->
+        <aside>
+            <h2>Food Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="audio.html">Audio</a></li>
+                </ul>
+            <h2>Good Foods</h2>
+                <ol>
+                    <li>Apples</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                    <li>Grapefruit</li>
+                    <li>Fruit</li>
+                    <li>Veg</li>
+                </ol>
+        </aside>
         <footer>
-            <p>&copy;2022 Rome Travel</p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="audio.html">Audio</a></li>
+            </ul>
+            <small>&copy; 2022 Sligo Food</small>
         </footer>
     </body>
     </html>
